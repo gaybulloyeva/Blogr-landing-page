@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: hsl(240, 100%, 99%);
+}
+
+.intro-page .intro-bg {
+  background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  border-bottom-left-radius: 100px;
+}
+.intro-page .intro-page_container {
+  height: 660px;
+  background-image: url("./images/bg-pattern-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: hsl(0, 0%, 100%);
+}
+.intro-page .intro-page_container .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro-page .intro-page_container .nav .nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 60px 0 0 100px;
+}
+.intro-page .intro-page_container .nav .nav-left img {
+  margin-right: 50px;
+}
+.intro-page .intro-page_container .nav .nav-left ul {
+  padding-top: 18px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.intro-page .intro-page_container .nav .nav-left ul li {
+  cursor: pointer;
+  padding-right: 40px;
+  transition: 0.2s;
+}
+.intro-page .intro-page_container .nav .nav-left ul li:hover {
+  color: hsl(240, 2%, 79%);
+}
+.intro-page .intro-page_container .nav .nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 60px 0 0 100px;
+}
+.intro-page .intro-page_container .nav .nav-right button {
+  margin-right: 100px;
+  width: 130px;
+  height: 50px;
+  border-radius: 25px;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  background-color: hsl(355, 100%, 74%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.intro-page .intro-page_container .nav .nav-right button:hover {
+  color: hsl(355, 100%, 74%);
+  background-color: hsl(0, 0%, 100%);
+}
+.intro-page .intro-page_container .nav .nav-right ul {
+  padding-top: 18px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.intro-page .intro-page_container .nav .nav-right ul li {
+  cursor: pointer;
+  padding-right: 30px;
+  transition: 0.2s;
+}
+.intro-page .intro-page_container .nav .nav-right ul li:hover {
+  color: hsl(240, 2%, 79%);
+}
+.intro-page .intro-page_container .intro-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.intro-page .intro-page_container .intro-text .intro-title {
+  text-align: center;
+  margin-top: 150px;
+}
+.intro-page .intro-page_container .intro-text .intro-title h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+.intro-page .intro-page_container .intro-text .intro-title p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.intro-page .intro-page_container .intro-text .intro-btn button {
+  margin-top: 30px;
+  cursor: pointer;
+  width: 150px;
+  height: 55px;
+  border-radius: 25px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  background-color: rgba(255, 0, 0, 0);
+  border: 1px solid hsl(0, 0%, 100%);
+  transition: 0.3s;
+  font-weight: 500;
+}
+.intro-page .intro-page_container .intro-text .intro-btn .start {
+  margin-right: 15px;
+}
+.intro-page .intro-page_container .intro-text .intro-btn button:hover {
+  color: hsl(355, 100%, 74%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.second-page {
+  overflow: hidden;
+  margin-top: 200px;
+}
+.second-page_title {
+  text-align: center;
+}
+.second-page_title h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: hsl(208, 49%, 24%);
+}
+.second-page_text {
+  display: flex;
+  flex-direction: row;
+}
+.second-page_text .second-page_description {
+  padding: 0 0 0 100px;
+}
+.second-page_text .second-page_description h3 {
+  margin: 100px 0 40px 0;
+  color: hsl(208, 49%, 24%);
+}
+.second-page_text .second-page_description p {
+  color: hsl(207, 13%, 34%);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.second-page_text .second-page_img {
+  transform: translateX(260px);
+}
+
+.third-page {
+  background-image: linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  border-radius: 0 100px 0 100px;
+}
+.third-page_container {
+  height: 350px;
+  background-image: url("./images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.third-page_container img {
+  margin-left: 100px;
+}
+.third-page_container h2 {
+  color: hsl(0, 0%, 100%);
+  margin-left: 70px;
+}
+.third-page_container p {
+  color: hsl(240, 2%, 79%);
+  margin-top: 20px;
+  line-height: 30px;
+  margin-right: 200px;
+  margin-left: 70px;
+}
+
+.fourth-page {
+  margin-top: 100px;
+}
+.fourth-page_container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.fourth-page_container .fourth-page_text {
+  position: relative;
+  right: 200px;
+}
+.fourth-page_container .fourth-page_text h3 {
+  margin: 20px 0 40px 0;
+  color: hsl(208, 49%, 24%);
+}
+.fourth-page_container .fourth-page_text p {
+  color: hsl(207, 13%, 34%);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.fourth-page_container .fourth-page_img {
+  transform: translateX(-400px);
+}
+
+.footer {
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 100px;
+}
+.footer_container {
+  padding: 100px 300px 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer_container .footer_text1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer_container .footer_text1 a {
+  color: hsl(240, 2%, 79%);
+  margin-bottom: 10px;
+}
+.footer_container .footer_text1 a:first-child {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 20px;
+}
+.footer_container .footer_text2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer_container .footer_text2 a {
+  color: hsl(240, 2%, 79%);
+  margin-bottom: 10px;
+}
+.footer_container .footer_text2 a:first-child {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 20px;
+}
+.footer_container .footer_text3 {
+  display: flex;
+  flex-direction: column;
+}
+.footer_container .footer_text3 a {
+  color: hsl(240, 2%, 79%);
+  margin-bottom: 10px;
+}
+.footer_container .footer_text3 a:first-child {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 20px;
+}
+.footer a:hover {
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+}
+
+/*# sourceMappingURL=style.css.map */
